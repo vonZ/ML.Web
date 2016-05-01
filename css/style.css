@@ -1,0 +1,141 @@
+@font-face {
+font-family: Diavlo_bold;
+src: url("../fonts/Diavlo_BOLD_II_37.otf") format("opentype");
+}
+
+@font-face {
+font-family: Diavlo_light;
+src: url("../fonts/Diavlo_LIGHT_II_37.otf") format("opentype");
+}
+
+@font-face {
+font-family: Diavlo_book;
+src: url("../fonts/Diavlo_BOOK_II_37.otf") format("opentype");
+}
+
+@font-face {
+font-family: Entypo;
+src: url("../fonts/Entypo.otf") format("opentype");
+}
+
+body {
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  color: #434a54;
+  background-color: #e9e9ea;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Diavlo_book;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.panel-primary {
+  margin: 50px;
+  border: none !important;
+}
+
+.panel-heading {
+  padding-left: 19px !important; 
+}
+
+.panel-heading h2 {
+  font-family: Diavlo_light !important;
+  font-weight: 200;
+
+}
+
+.well {
+  margin: 19px !important;
+  background: #f7f8fa !important;
+}
+
+  .well h2 {
+    font-family: Diavlo_light;
+  }
+
+  .well p {
+    font-family: Diavlo_light;
+  }
+
+
+
+.panel-body {
+  background: white !important; 
+}
+
+.img-comment {
+  margin: 24px 0;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.2;
+}
+.rslides_container {
+  margin-bottom: 10px !important;
+  margin: 26px !important;
+}
+
+.includes .row {
+  margin-left: 30px;
+  font-family: Entypo;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.list-inline {
+  font-family: Entypo;
+  font-size: 30px;
+  padding: 19px;
+  
+}
+
+  .list-inline > li {
+    padding: 0px;
+    margin-left: 10px;
+  }
+
+
+  .list-inline p {
+    font-family: Diavlo_book;
+    color: #6bc077;
+    font-size: 17px;
+    margin-left: -21px;
+  }
+
+.includes .row .col-md-1 {
+  width: 6.333333%;
+}
+
+.includes .row p {
+  font-family: Diavlo_book;
+  font-size: 13px;
+  margin-top: 26px;
+  color: #6bc077;
+}
+
+.includes .row .col-md-2 {
+  width: 13.666667%;
+}
+
+.includes .row .author .col-md-5 p {
+  font-family: Diavlo_book;
+  color: #515151;
+}
+
+@media screen and (max-width: 767px) { 
+  .panel-primary {
+    margin: 0px;
+  }
+}
