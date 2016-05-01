@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memory site</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/slide.css" rel="stylesheet">
+    <link href="css/themes.css" rel="stylesheet">
+    <link href="css/responsiveslides.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/responsiveslides.js"></script>
+    <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "centered-btns"
+      });
+
+    });
+  </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h2>Mitt första minne</h2>
+          </div>
+
+          <div class="rslides_container">
+            <ul class="rslides centered-btns centered-btns1" id="slider1" style="max-width: 800px;">
+              <li id="centered-btns1_s0" class="centered-btns1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; -webkit-transition: opacity 500ms ease-in-out; transition: opacity 500ms ease-in-out;">
+                <img src="images/1.jpg" alt="">
+              </li>
+              <li id="centered-btns1_s1" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; -webkit-transition: opacity 500ms ease-in-out; transition: opacity 500ms ease-in-out;">
+                <img src="images/2.jpg" alt="">
+              </li>
+              <li id="centered-btns1_s2" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; -webkit-transition: opacity 500ms ease-in-out; transition: opacity 500ms ease-in-out;">
+                <img src="images/3.jpg" alt="">
+              </li>
+            </ul>
+
+            <a href="#" class="centered-btns_nav centered-btns1_nav prev">Previous</a>
+            <a href="#" class="centered-btns_nav centered-btns1_nav next">Next</a>
+
+          </div>
+          <div class="well">
+            <ul class="list-inline">
+              <li>p</li>
+              <li><p>4 bilder</p></li>
+              <li>l</li>
+              <li><p>2 dokument</p></li>
+              <li>q</li>
+              <li><p>1 video</p></li>
+              <li>r</li>
+              <li><p>1 ljudfil</p></li>
+            </ul>
+          </div>    
+          <div class="well">
+            <h2>Sammanfattning</h2>
+            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+
+            <p> Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.Raw denim you probably haven't heard of them jean shorts Austin.</p>
+
+            <p> Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+          </div>
+
+          <ul class="list-inline">
+            <li>&</li>
+            <li><a href=""><p>Kommentera</p></a></li>
+            <li>w</li>
+            <li><a href=""><p>Ladda ner inlägg</p></a></li>
+          </ul>
+</div>
+    </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </body>
+</html>
